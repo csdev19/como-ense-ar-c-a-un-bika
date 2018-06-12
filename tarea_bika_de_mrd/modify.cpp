@@ -12,6 +12,8 @@ int main() {
   for (int i = 0; i < length_array; ++i)
   {
     cin >> cin_number;
+    main_array[i] = cin_number;
+
   }
 
   for (int i = 0; i < length_array ; ++i)
