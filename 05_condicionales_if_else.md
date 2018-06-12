@@ -1,5 +1,7 @@
 # Condicionales (if-else)
 
+## Link [desicion-making](https://www.tutorialspoint.com/cplusplus/cpp_decision_making.htm)
+
 - En la programacion comunmente se necesita condicionar las acciones que hace el programa bajo ciertos valores.
 - Para esto sirven las estructuras if-else.
 - Las estructuras condicionales if se ejecutan cuando la condicion con la que se crean es verdadera o **True**. Y cuando no se ejecuta el **if** se ejecuta el **else** (en caso que existan).
@@ -27,6 +29,7 @@ int main() {
 
 ```
 - Las condicionales if-else tambien se pueden "concatenar" de la siguiente manera:
+
 ```cpp
 #include<iostream>
 
@@ -54,9 +57,13 @@ int main () {
     } else {
         cout<<"no es un dia valido"
     }
+    // este codigo es muy largo c++ tiene una mejor forma de hacer cosas asi
+    return 0
 }
 ```
+
 - Tambien se pueden anidar los if y else
+
 ```cpp
 #include<iostream>
 
