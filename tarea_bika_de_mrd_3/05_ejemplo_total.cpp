@@ -14,7 +14,7 @@ void imprimir_problema () {
 }
 
 // no retorna nada pero si recibe
-void imprimir_factorial (int a) {
+void imprimir_factorial (float a) {
 	cout<<"============ El resultado es =============" <<endl;
 	cout << "\t\t" << a << endl;
 	cout<<"=========================================="<< endl;
@@ -22,7 +22,7 @@ void imprimir_factorial (int a) {
 
 
 // retorna un numero y recibe un numero
-int hallar_factorial (int a){
+float hallar_factorial (int a){
 	int acum =1;
 	for (int i=1; i <= a; i++) {
 		acum *= i;
@@ -31,7 +31,8 @@ int hallar_factorial (int a){
 }
 
 int main() {
-	int base = 0, resultado;
+	int base = 0;
+	float resultado;
 	imprimir_problema();
 	cin >> base;
 	resultado = hallar_factorial(base) / ( hallar_factorial(base+1) + hallar_factorial(base+2)) ;
