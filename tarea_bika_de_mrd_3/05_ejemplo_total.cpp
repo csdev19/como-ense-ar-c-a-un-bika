@@ -15,9 +15,9 @@ void imprimir_problema () {
 
 // no retorna nada pero si recibe
 void imprimir_factorial (int a) {
-	cout << "============ El resultado es =============" << endl;
-	cout << "\t\t" << a << endln
-	cout << "==========================================" << endl;
+	cout<<"============ El resultado es =============" <<endl;
+	cout << "\t\t" << a << endl;
+	cout<<"=========================================="<< endl;
 }
 
 
@@ -31,9 +31,9 @@ int hallar_factorial (int a){
 }
 
 int main() {
-	int base, resultado;
+	int base = 0, resultado;
 	imprimir_problema();
 	cin >> base;
-	resultado = factorial(base);
+	resultado = hallar_factorial(base);
 	imprimir_factorial(resultado);
 }
