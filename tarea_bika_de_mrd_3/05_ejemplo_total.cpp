@@ -34,6 +34,6 @@ int main() {
 	int base = 0, resultado;
 	imprimir_problema();
 	cin >> base;
-	resultado = hallar_factorial(base);
+	resultado = hallar_factorial(base) / ( hallar_factorial(base+1) + hallar_factorial(base+2)) ;
 	imprimir_factorial(resultado);
 }
