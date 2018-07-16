@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int factorial (int a){
-	int acum =1;
+double factorial (int a){
+	double acum =1;
 	for (int i=1; i <= a; i++) {
 		acum *= i;
 	}
@@ -10,7 +10,8 @@ int factorial (int a){
 }
 
 int main() {
-	int base, resultado;
+	int base;
+	double resultado;
 
 	cout << "factorial de que numero quieres?" << endl;
 	cin >> base;
